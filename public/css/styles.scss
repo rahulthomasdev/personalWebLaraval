@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family: "Quicksand", sans-serif !important;
+}
+
+.__heading {
+    font-size: 1rem;
+    color: red;
+}
+
+.__footer {
+    font-size: 1rem;
+}
+
+// .__content {
+//     background: rgb(227, 139, 104);
+//     background: linear-gradient(317deg, rgba(227, 139, 104, 1) 0%, rgba(237, 237, 185, 1) 100%, rgba(246, 251, 252, 1) 100%);
+// }
+
+.__c_h1 {
+    font-size: 3rem;
+}
+
+.__circle_div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+
+.accordion-button::after {
+    margin-left: 0;
+    margin-right: 0.5em;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"><g fill-opacity="0.18039" fill="%23000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M11,2v9h-9v2h9v9h2v-9h9v-2h-9v-9z"></path></g></g></svg>') !important;
+    background-color: transparent;
+}
+
+.__skills_bold {
+    color: orangered;
+    font-size: 4rem !important;
+    font-weight: 900;
+}
+
+.nav-link.active {
+    color: orangered !important;
+    font-weight: 600;
+}
