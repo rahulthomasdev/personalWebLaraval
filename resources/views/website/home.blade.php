@@ -13,8 +13,8 @@
                 <p class="mx-5 py-2">Tag Line</p>
                 <div class="mx-5"><button type="button" class="text-uppercase bg-dark text-white border-0 wrap px-3 py-2" onclick="window.location.href='{{route('about')}}'">Learn More</button></div>
             </div>
-            <div class="col-sm-12 col-md-6 d-none d-md-block">
-                <img src="https://cdn.pixabay.com/photo/2024/02/06/09/36/laptop-8556518_1280.png" class="img-fluid" />
+            <div class="col-sm-12 col-md-6 d-none d-md-flex h-100 align-items-center justify-content-center">
+                <img src="https://cdn.pixabay.com/photo/2024/02/06/09/36/laptop-8556518_1280.png" class="img-fluid mh-100" />
             </div>
         </div>
     </div>
@@ -74,7 +74,7 @@
             </div>
         </div>
     </div>
-    <div class="h-auto mt-2" style="background-image: url('https://img.freepik.com/free-photo/dark-blue-product-background_53876-92801.jpg?w=1380&t=st=1709537408~exp=1709538008~hmac=bca1aaa627ee939bbf1427e002343f56d5e57e5d7cd9722e927b95beb68bad7d');">
+    <div class="h-auto mt-2" style="background-image: url('{{ asset('dark-bg-shadow.jpg') }}');">
         <div class="text-white d-flex flex-column justify-content-center align-items-center py-5">
             <div class="row mx-0">
                 <div class="col-md-6">

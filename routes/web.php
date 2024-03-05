@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,4 +24,13 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('website.contact', ["title" => 'Contact']);
 })->name('contact');
+Route::get('/dashboard-status', function () {
+    return view('website.dashboard-status', ["title" => 'Dashboard Status']);
+})->name('dashboard-status');
+
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.submit');
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

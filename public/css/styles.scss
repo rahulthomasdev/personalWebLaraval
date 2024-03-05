@@ -46,3 +46,56 @@ body {
     color: orangered !important;
     font-weight: 600;
 }
+
+.__blog_title {
+    font-weight: 800;
+    color: orangered !important;
+    font-size: 3rem !important;
+
+    a {
+        color: orangered !important;
+        transform: all 0.4s ease;
+
+        &:hover {
+            color: rgb(191, 56, 7) !important;
+        }
+
+    }
+}
+
+.__blog_subtitle {
+    color: darkgrey;
+}
+
+.__post_img {
+    object-fit: cover;
+}
+
+.__title_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.__blog_body_content {
+    p {
+        color: orangered !important;
+
+    }
+}
+
+.__single_post {
+    color: orangered;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.__post_link {
+    color: orangered !important;
+    font-weight: 500;
+
+    &:hover {
+        color: rgb(207, 55, 0) !important;
+    }
+}
