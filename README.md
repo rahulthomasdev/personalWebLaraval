@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-##Screenshot
+## Screenshot
 
 ![image](https://github.com/rahulthomasdev/personalWebLaraval/assets/129172118/5272918e-7559-4e62-9ccc-c98e4b165ccd)
 
